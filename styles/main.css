@@ -1,0 +1,70 @@
+html {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+html,
+body {
+    margin: 0;
+    padding: none;
+}
+
+header {
+    width: 100%;
+    background: #59d;
+    margin: 0;
+}
+
+header h1 {
+    margin-left: 15px;
+}
+
+.outer {
+    overflow: hidden;
+}
+
+section {
+    margin-top: -100%;
+    transition: all .7s ease-out;
+}
+
+section.active {
+    margin-top: 0px;
+    transition: all .7s ease-in;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 10px;
+}
+
+nav li {
+    padding: 10px;
+    display: inline;
+    cursor: pointer;
+}
+
+nav li.selected {
+    background: #FFF;
+}
+
+nav li span {
+    position: relative;
+}
+
+nav li span:after {
+    position: absolute;
+    display: block;
+    content: '';
+    width: 0;
+    height: 2px;
+    background: black;
+    transition: .2s;
+}
+
+nav li:hover span:after {
+    width: 100%;
+    transition: .2s;
+}

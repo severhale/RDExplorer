@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="title">Reaction Diffusion Explorer</h1>
+        <nav>
+            <ul>
+                <li data-section="home">
+                    <span>home</span>
+                </li>
+                <li data-section="timeline">
+                    <span>timeline</span>
+                </li>
+                <li data-section="applications">
+                    <span>applications</span>
+                </li>
+                <li data-section="simulations">
+                    <span>simulations</span>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="outer">
+        <section id="home">
+            <h2>What is reaction diffusion?</h2>
+            <p>Reaction diffusion refers to a class of interactions between two agents with two requirements. Both agents must diffuse over time, and must interact with each other. They were discovered by Alan Turing in his 1952 paper, The Chemical Basis of Morphogenesis, who proposed that this model could explain many types of natural, autonomous pattern formation (Turing). The applicability of the model was disputed for many years, but over time, compelling examples of the model’s usefulness led to its acceptance.</p>
+            <p>In nature, things tend to constantly spread and even themselves out. Many things diffuse in a way similar to the way one normally thinks a gas does, just at drastically different speeds. Water smooths itself out, as does sand, as does a mountain - eventually. For this reason, the reaction diffusion model is applicable to many phenomena in nature. Ordinary two-variable reaction diffusion (typically using the Gray-Scott model) has been used for applications ranging from biological and chemical to purely artistic. In biology, it has been used as a model to understand why certain patterns appear so often in nature, and to model growth of things like malignant tumors (Konukoglu et al.).</p>
+            <h2>Where can we go from here?</h2>
+            <p>Reaction-diffusion is one of a few growth models which presents exciting possibilities to artists and biologists alike in that it provides a convincing, accurate model for certain types of natural growth. This paper will explore the many extensions and variations of this model to various ends such as 3D-printed art, complex 2D digital art, and architecture, as well as a brief exploration into other types of natural growth models.</p>
+        </section>
+    </div>
+
+    <div class="outer">
+        <section id="timeline">
+            <iframe src='https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=19nP42WcOEUEWOEoN_Y_5GLrb4-IagJ3i7G1rz5De_Y8&font=Default&lang=en&initial_zoom=2&height=650' width='100%' height='650' frameborder='0'></iframe>
+        </section>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
+    <script src="scripts/main.js"></script>
+
+</body>
+
+</html>
