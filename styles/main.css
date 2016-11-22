@@ -4,18 +4,20 @@ html {
 
 html,
 body {
-    margin: 0;
-    padding: none;
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
 header {
     width: 100%;
+    padding-top: 15px;
     background: #59d;
     margin: 0;
 }
 
 header h1 {
     margin-left: 15px;
+    margin-top: 0;
 }
 
 .outer {
@@ -36,6 +38,7 @@ nav ul {
     list-style: none;
     display: flex;
     flex-direction: row;
+    flex-flow: wrap;
     justify-content: flex-end;
     margin: 10px;
 }

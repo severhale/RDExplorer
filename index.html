@@ -43,7 +43,24 @@
         </section>
     </div>
 
+    <div class="outer">
+        <section id="simulations">
+            <h2>2D Turing Patterns Over Time</h2>
+            <ul>
+                <li>Click: Update once</li>
+                <li>Space: Reset</li>
+            </ul>
+            <!--
+            <input type="range" text="Activator radius" class="colorslider" min="0" max="20" value="5" step=".1" onChange="updateActivatorRadius(this.value)" />
+            <input type="range" text="Inhibitor radius" class="colorslider" min="0" max="20" value="10" step=".1" onChange="updateInhibitorRadius(this.value)" />
+-->
+
+            <canvas id="sketch" data-processing-sources="scripts/turing_web/turing_web.pde"></canvas>
+        </section>
+    </div>
+
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
+    <script src="scripts/processing.js"></script>
     <script src="scripts/main.js"></script>
 
 </body>
