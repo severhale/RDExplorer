@@ -2,16 +2,20 @@
 <html>
 
 <head>
+    <title>Reaction Diffusion Explorer</title>
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
     <header>
-        <h1 id="title">Reaction Diffusion Explorer</h1>
+        <div class="title">
+            <h1 id="title">Reaction Diffusion Explorer</h1>
+            <h5>A project by Simon Ever-Hale for Computation Biology</h5>
+        </div>
         <nav>
             <ul>
-                <li data-section="home">
+                <li class="selected" data-section="home">
                     <span>home</span>
                 </li>
                 <li data-section="timeline">
@@ -28,7 +32,7 @@
     </header>
 
     <div class="outer">
-        <section id="home">
+        <section id="home" class="active">
             <h2>What is reaction diffusion?</h2>
             <p>Reaction diffusion refers to a class of interactions between two agents with two requirements. Both agents must diffuse over time, and must interact with each other. They were discovered by Alan Turing in his 1952 paper, The Chemical Basis of Morphogenesis, who proposed that this model could explain many types of natural, autonomous pattern formation (Turing). The applicability of the model was disputed for many years, but over time, compelling examples of the model’s usefulness led to its acceptance.</p>
             <p>In nature, things tend to constantly spread and even themselves out. Many things diffuse in a way similar to the way one normally thinks a gas does, just at drastically different speeds. Water smooths itself out, as does sand, as does a mountain - eventually. For this reason, the reaction diffusion model is applicable to many phenomena in nature. Ordinary two-variable reaction diffusion (typically using the Gray-Scott model) has been used for applications ranging from biological and chemical to purely artistic. In biology, it has been used as a model to understand why certain patterns appear so often in nature, and to model growth of things like malignant tumors (Konukoglu et al.).</p>

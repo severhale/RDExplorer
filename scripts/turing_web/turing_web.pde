@@ -253,6 +253,7 @@ void setup() {
   noStroke();
   fill(128);
   gb = new GridBuilder(-500, 5, 100, 100, activatorRad, inhibitorRad, c);
+  gb.update();
   background(255);
 }
 
@@ -283,6 +284,7 @@ void keyPressed() {
     // println("Resetting");
     //gb = new GridBuilder(-500, 5, 100, 100, activatorRad, inhibitorRad, c);
     gb.reset(-500, activatorRad, inhibitorRad);
+    gb.update();
     // println("Finished re-initializing");
   }
 }

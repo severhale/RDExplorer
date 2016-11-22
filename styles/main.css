@@ -10,14 +10,22 @@ body {
 
 header {
     width: 100%;
-    padding-top: 15px;
     background: #59d;
     margin: 0;
 }
 
-header h1 {
-    margin-left: 15px;
-    margin-top: 0;
+header .title {
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+header .title h5,
+header .title h1 {
+    margin: 0;
+}
+
+header .title h5 {
+    color: #444;
 }
 
 .outer {
@@ -25,13 +33,15 @@ header h1 {
 }
 
 section {
-    margin-top: -100%;
-    transition: all .7s ease-out;
+    padding: 10px 20px;
+    margin-top: -1000%;
+    /*    transition: all .7s ease-out;*/
+    overflow: hidden;
 }
 
 section.active {
     margin-top: 0px;
-    transition: all .7s ease-in;
+    /*    transition: all .7s ease-in;*/
 }
 
 nav ul {
