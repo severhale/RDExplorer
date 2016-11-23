@@ -28,6 +28,16 @@ header .title h5 {
     color: #444;
 }
 
+a {
+    color: #444;
+    text-decoration: underline;
+}
+
+a:hover {
+    background: #444;
+    color: #fff;
+}
+
 .outer {
     overflow: hidden;
 }
@@ -80,4 +90,8 @@ nav li span:after {
 nav li:hover span:after {
     width: 100%;
     transition: .2s;
+}
+
+.project-title h1 {
+    display: inline-block;
 }
