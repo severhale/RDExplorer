@@ -45,3 +45,8 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+
+scripts/turing_web
+scripts/turing_web/*
+scripts/turing_web/turing_web.pde
