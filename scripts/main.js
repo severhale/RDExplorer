@@ -1,3 +1,7 @@
+$(window).on("load", function () {
+    Processing.getInstanceById('sketch').noLoop();
+});
+
 $("nav li").click(function (event) {
     event.preventDefault();
     var sectionId = $(this).attr('data-section');
