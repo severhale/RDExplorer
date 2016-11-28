@@ -109,3 +109,19 @@ nav li:hover span:after {
 .project-title h1 {
     display: inline-block;
 }
+
+footer {
+    margin-top: 25px;
+    margin-bottom: 0;
+    background: black;
+    color: white;
+}
+
+footer p {
+    padding: 20px 10px;
+    margin-bottom: 0;
+}
+
+footer p a {
+    color: #bbb;
+}
